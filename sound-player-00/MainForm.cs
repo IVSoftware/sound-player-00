@@ -1,5 +1,3 @@
-
-
 using System.Diagnostics;
 using System.Media;
 
@@ -27,7 +25,10 @@ namespace sound_player_00
             }
             else
             {
-                using (var stream = GetType().Assembly.GetManifestResourceStream(resource))
+                using (var stream = 
+                    GetType()
+                    .Assembly
+                    .GetManifestResourceStream(resource))
                 {
                     _player.Stream = stream;
                     _player.Play();
