@@ -1,6 +1,6 @@
 The [answer](https://stackoverflow.com/a/74927399/5438626) by Klaus Gütter is one of the more optimal ways to go about this. To expand on that excellent post, this code shows in detail how to create and consume the sound file. 
 
-Here's a simple player that I [tested](https://github.com/IVSoftware/sound-player-00.git) and works on my end.
+Here's a simple player that I tested and works on my end.
 
 ***
 Create the embedded resource from the sound file:
